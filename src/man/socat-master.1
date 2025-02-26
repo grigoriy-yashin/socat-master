@@ -1,0 +1,37 @@
+.TH SOCAT-MASTER 1 "February 2025" "socat-master 1.0" "User Commands"
+.SH NAME
+socat-master \- Manage socat port forwarding services.
+.SH SYNOPSIS
+.B socat-master
+[\-c|\-\-create LISTEN_PORT REDIR_IP REDIR_PORT]
+[\-d|\-\-delete LISTEN_PORT]
+[\-l|\-\-list]
+[\-h|\-\-help]
+.SH DESCRIPTION
+This tool allows you to create, delete, and list socat services
+with ease. It is designed to simplify port forwarding management.
+.SH OPTIONS
+.TP
+.B \-c, \-\-create
+Create a new socat service.
+.TP
+.B \-d, \-\-delete
+Delete an existing socat service.
+.TP
+.B \-l, \-\-list
+List all active socat services.
+.TP
+.B \-h, \-\-help
+Show this help message.
+.SH EXAMPLES
+.TP
+.B socat-master \-\-create 5022 127.0.0.1 22
+Create a service forwarding port 5022 to 127.0.0.1:22.
+.TP
+.B socat-master \-\-delete 5022
+Delete the service listening on port 5022.
+.TP
+.B socat-master \-\-list
+List all active socat services.
+.SH AUTHOR
+Your Name <grigoriy.yashin@gmail.com>
