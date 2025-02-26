@@ -1,0 +1,12 @@
+Package: socat-master
+Version: 1.0-1
+Architecture: all
+Maintainer: Grigoriy Yashin <grigoriy.yashin@gmail.com>
+Installed-Size: 22
+Depends: socat, systemd
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: A utility to manage socat port forwarding services.
+ This tool allows you to create, delete, and list socat services
+ with ease. It is designed to simplify port forwarding management.
