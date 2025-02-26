@@ -1,0 +1,13 @@
+# Временные файлы сборки
+debian/socat-master/
+debian/debhelper-build-stamp
+debian/*.debhelper.log
+debian/*.substvars
+
+# Артефакты сборки
+*.build
+*.changes
+*.debian.tar.xz
+*.dsc
+*.deb
+*.tar.xz
