@@ -2,7 +2,7 @@ Package: socat-master
 Version: 1.0-1
 Architecture: all
 Maintainer: Grigoriy Yashin <grigoriy.yashin@gmail.com>
-Installed-Size: 22
+Installed-Size: 19
 Depends: socat, systemd
 Section: unknown
 Priority: optional
