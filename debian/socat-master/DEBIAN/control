@@ -6,7 +6,7 @@ Installed-Size: 19
 Depends: socat, systemd
 Section: unknown
 Priority: optional
-Homepage: <insert the upstream URL, if relevant>
+Homepage: herzogtum.ru
 Description: A utility to manage socat port forwarding services.
  This tool allows you to create, delete, and list socat services
  with ease. It is designed to simplify port forwarding management.
