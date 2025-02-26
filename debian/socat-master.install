@@ -1,2 +1,2 @@
-src/socat-master.sh /usr/bin/socat-master
+src/socat-master /usr/bin/
 man/socat-master.1 /usr/share/man/man1/
