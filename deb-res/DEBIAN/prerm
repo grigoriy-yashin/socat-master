@@ -1,0 +1,3 @@
+#!/bin/bash
+# Pre-removal script
+echo "Removing socat-master..."
