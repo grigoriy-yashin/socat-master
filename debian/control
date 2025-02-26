@@ -1,0 +1,16 @@
+Source: socat-master
+Section: unknown
+Priority: optional
+Maintainer: Grigoriy Yashin <grigoriy.yashin@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/socat-master
+#Vcs-Git: https://salsa.debian.org/debian/socat-master.git
+Rules-Requires-Root: no
+
+Package: socat-master
+Architecture: all
+Depends: ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
