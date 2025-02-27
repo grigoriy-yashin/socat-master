@@ -1,5 +1,149 @@
-socat-master (1.0-1) UNRELEASED; urgency=medium
+socat-master (1.0-11) unstable; urgency=medium
+
+  * Upd
+
+ -- grigoriy <g.y@gmail.com>  Thu, 27 Feb 2025 03:23:08 +0300
+
+# grigoriy@grigoriy-Nitro-AN515-58:~/GIT/hub/socat-master$ EMAIL=g.y@gmail.com dch -U "Upd"
+# grigoriy@grigoriy-Nitro-AN515-58:~/GIT/hub/socat-master$ EMAIL=g.y@gmail.com dch -r "" --distribution unstable
+
+socat-master (1.0-10) unstable; urgency=medium
+
+  * Upd
+  * Upd
+
+ -- grigoriy <g.y@gmail.com>  Thu, 27 Feb 2025 03:22:28 +0300
+
+socat-master (1.0-9) jammy; urgency=medium
+
+  * Upd
+
+ -- grigoriy <g.y@gmail.com>  Thu, 27 Feb 2025 03:21:54 +0300
+
+socat-master (1.0-8) jammy; urgency=medium
+
+  * Upd
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:16:30 +0300
+
+socat-master (1.0-7) jammy; urgency=medium
+
+  * Upd
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:15:44 +0300
+
+socat-master (1.0-6) jammy; urgency=medium
+
+  * Upd
+  * Update
+  * Upd
+  * Upd
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:15:32 +0300
+
+socat-master (1.0-5ubuntu1) jammy; urgency=medium
+
+  *
+  * Upd
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:13:07 +0300
+
+socat-master (1.0-5) jammy; urgency=medium
+
+  * Update
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:12:02 +0300
+
+socat-master (1.0-4+deb11u1) bullseye; urgency=medium
+
+  * Release
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:11:31 +0300
+
+socat-master (1.0-4) UNRELEASED; urgency=medium
+
+  * Update
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:06:25 +0300
+
+socat-master (1.0-3+deb11u2) bullseye; urgency=medium
+
+  * Release
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:06:07 +0300
+
+socat-master (1.0-3+deb11u1) bullseye; urgency=medium
+
+  * Release
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:05:57 +0300
+
+socat-master (1.0-3) UNRELEASED; urgency=medium
+
+  * Update
+  * Update2
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:05:18 +0300
+
+socat-master (1.0-2ubuntu3+deb11u2ubuntu7) bullseye; urgency=medium
+
+  * Release
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:04:48 +0300
+
+socat-master (1.0-2ubuntu3+deb11u2ubuntu6) bullseye; urgency=medium
+
+  * Release
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:04:33 +0300
+
+socat-master (1.0-2ubuntu3+deb11u2ubuntu5) bullseye; urgency=medium
+
+  * M c
+  * Update
+  * Update2
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:02:54 +0300
+
+socat-master (1.0-2ubuntu3+deb11u2ubuntu4) unstable; urgency=medium
+
+  * A
+  * B
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 03:00:58 +0300
+
+socat-master (1.0-2ubuntu3+deb11u2ubuntu3) a; urgency=medium
+
+  * Release
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 02:59:15 +0300
+
+socat-master (1.0-2ubuntu3+deb11u2ubuntu2) UNRELEASED; urgency=medium
+
+  * A
+  * B
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 02:58:15 +0300
+
+socat-master (1.0-2ubuntu3+deb11u2) bullseye; urgency=medium
+
+  * a
+  * A gde
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 02:55:12 +0300
+
+socat-master (1.0-2ubuntu3+deb11u1) bullseye; urgency=medium
+
+  * Stable
+
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 02:54:52 +0300
+
+socat-master (1.0-2ubuntu3) jammy; urgency=medium
 
   * Initial Release.
+  * A
+  * B
+  * Exp 1 
+  * Release
 
- -- grigoriy <grigoriy.yashin@gmail.com>  Thu, 27 Feb 2025 00:46:36 +0300
+ -- grigoriy <grigoriy@grigoriy-Nitro-AN515-58>  Thu, 27 Feb 2025 02:52:36 +0300
