@@ -1,0 +1,45 @@
+name: Build and Publish
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Debian packaging
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y devscripts debhelper dh-make
+
+      - name: Build package
+        run: |
+          dpkg-buildpackage -us -uc
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: socat-master
+          path: ../*.deb
+
+  publish:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up PPA
+        run: |
+          sudo apt-get install -y dput
+          echo "${{ secrets.PPA_GPG_PRIVATE_KEY }}" | gpg --import
+          echo "${{ secrets.PPA_GPG_PASSPHRASE }}" | gpg --passphrase-fd 0 --batch --yes --import
+
+      - name: Publish to PPA
+        run: |
+          dput ppa:your-ppa/your-repo ../*.changes
