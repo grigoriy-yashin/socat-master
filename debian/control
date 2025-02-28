@@ -1,5 +1,6 @@
 Source: socat-master
-Section: unknown
+# Update section depending on the utility porposes.
+Section: net
 Priority: optional
 Maintainer: Grigoriy Yashin <grigoriy.yashin@gmail.com>
 Build-Depends: debhelper-compat (= 13)
