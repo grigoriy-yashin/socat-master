@@ -1,0 +1,2 @@
+src/socat-master /usr/bin/
+man/socat-master.1 /usr/share/man/man1/
