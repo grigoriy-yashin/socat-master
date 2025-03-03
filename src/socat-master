@@ -58,10 +58,13 @@ Description=Socat service to forward port ${LISTEN_PORT} to ${REDIR_IP}:${REDIR_
 After=network.target
 
 [Service]
+Type=simple
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=socatd-${LISTEN_PORT}
+
 ExecStart=/usr/bin/socat TCP-LISTEN:${LISTEN_PORT},fork,reuseaddr TCP:${REDIR_IP}:${REDIR_PORT}
 Restart=always
-User=nobody
-Group=nogroup
 
 [Install]
 WantedBy=multi-user.target
