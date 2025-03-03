@@ -1,3 +1,9 @@
+socat-master (1.2-2) noble; urgency=medium
+
+  * Add  distribution
+
+ -- grigoriy <grigoriy.yashin@gmail.com>  Mon, 03 Mar 2025 18:07:13 +0300
+
 socat-master (1.2-1) jammy; urgency=medium
 
   * Add  distribution
