@@ -1,3 +1,16 @@
+socat-master (1.2-1) jammy; urgency=medium
+
+  * Add  distribution
+
+ -- grigoriy <grigoriy.yashin@gmail.com>  Mon, 03 Mar 2025 15:23:27 +0300
+
+socat-master (1.2-0) focal; urgency=medium
+
+  * Upd manpages
+  * Add  distribution
+
+ -- grigoriy <grigoriy.yashin@gmail.com>  Mon, 03 Mar 2025 15:20:03 +0300
+
 socat-master (1.1-0) focal; urgency=medium
 
   * Enhance socat service configuration with improved logging and
