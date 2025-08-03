@@ -1,18 +1,41 @@
 name: ShellCheck
-on: { push: { branches: [ "main" ] }, pull_request: { branches: [ "main" ] }, workflow_dispatch: {} }
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
-  shellcheck:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install ShellCheck
+        run: sudo apt-get update && sudo apt-get install -y shellcheck
+
+      - name: Find shell scripts (*.sh or shebang)
+        id: find
+        shell: bash
+        run: |
+          set -euo pipefail
+          git ls-files -z \
+          | while IFS= read -r -d '' f; do
+              if [[ "$f" == *.sh ]]; then
+                printf '%s\0' "$f"
+              elif head -n1 "$f" | grep -qE '^#! */.*/(env +)?(a|ba|da|k|z)?sh([[:space:]]|$)'; then
+                printf '%s\0' "$f"
+              fi
+            done > shfiles.lst
+          count=$(tr -cd '\0' < shfiles.lst | wc -c || true)
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          if [ "$count" -eq 0 ]; then
+            echo "No shell files found"; exit 0
+          fi
+
       - name: Run ShellCheck
-        uses: ludeeus/action-shellcheck@2.0.0
-        with:
-          scandir: '.'
-          check_together: 'yes'
-          severity: error
-          additional_files: |
-            src/socat-master
-            debian/postinst
-            debian/prerm
+        if: steps.find.outputs.count != '0'
+        run: |
+          xargs -0 shellcheck -x -S error --format=gcc < shfiles.lst
