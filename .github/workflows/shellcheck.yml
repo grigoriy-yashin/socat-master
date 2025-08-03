@@ -1,0 +1,27 @@
+name: ShellCheck
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "**/*.sh"
+      - "*.sh"
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "**/*.sh"
+  workflow_dispatch:
+
+jobs:
+  shellcheck:
+    name: ShellCheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@v2
+        with:
+          check_together: 'yes'
+          severity: error
+          ignore_paths: >-
+            debian/** .github/**
