@@ -1,14 +1,5 @@
 name: ShellCheck
-
-on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - "**/*.sh"
-      - "**/*"
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
+on: { push: { branches: [ "main" ] }, pull_request: { branches: [ "main" ] }, workflow_dispatch: {} }
 
 jobs:
   shellcheck:
@@ -18,5 +9,10 @@ jobs:
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@2.0.0
         with:
+          scandir: '.'
           check_together: 'yes'
           severity: error
+          additional_files: |
+            src/socat-master
+            debian/postinst
+            debian/prerm
