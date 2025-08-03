@@ -4,7 +4,6 @@
 [![PPA](https://img.shields.io/badge/PPA-socat--master-blue?logo=ubuntu)](https://launchpad.net/~grigoriy-yashin/+archive/ubuntu/socat-master-ppa)
 [![License: MIT](https://img.shields.io/github/license/grigoriy-yashin/socat-master)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/grigoriy-yashin/socat-master)](https://github.com/grigoriy-yashin/socat-master/commits/main)
-[![Issues](https://img.shields.io/github/issues/grigoriy-yashin/socat-master)](https://github.com/grigoriy-yashin/socat-master/issues)
 [![Contributors](https://img.shields.io/github/contributors/grigoriy-yashin/socat-master)](https://github.com/grigoriy-yashin/socat-master/graphs/contributors)
 
 
