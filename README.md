@@ -1,4 +1,13 @@
 # socat-master
+[![CI](https://github.com/grigoriy-yashin/socat-master/actions/workflows/ci.yml/badge.svg)](https://github.com/grigoriy-yashin/socat-master/actions/workflows/ci.yml)
+[![PPA](https://img.shields.io/badge/PPA-socat--master-blue?logo=ubuntu)](https://launchpad.net/~grigoriy-yashin/+archive/ubuntu/socat-master-ppa)
+[![License: MIT](https://img.shields.io/github/license/grigoriy-yashin/socat-master)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/grigoriy-yashin/socat-master)](https://github.com/grigoriy-yashin/socat-master/commits/main)
+[![Stars](https://img.shields.io/github/stars/grigoriy-yashin/socat-master?style=social)](https://github.com/grigoriy-yashin/socat-master/stargazers)
+[![Issues](https://img.shields.io/github/issues/grigoriy-yashin/socat-master)](https://github.com/grigoriy-yashin/socat-master/issues)
+[![Contributors](https://img.shields.io/github/contributors/grigoriy-yashin/socat-master)](https://github.com/grigoriy-yashin/socat-master/graphs/contributors)
+
+
 A utility to manage socat port forwarding services. This tool allows you to create, delete, and list socat services  with ease. It is designed to simplify port forwarding management.
 
 ## Installation
