@@ -1,5 +1,6 @@
 # socat-master
 [![CI](https://github.com/grigoriy-yashin/socat-master/actions/workflows/ci.yml/badge.svg)](https://github.com/grigoriy-yashin/socat-master/actions/workflows/ci.yml)
+[![ShellCheck](https://github.com/grigoriy-yashin/socat-master/actions/workflows/shellcheck.yml/badge.svg?branch=main)](https://github.com/grigoriy-yashin/socat-master/actions/workflows/shellcheck.yml)
 [![PPA](https://img.shields.io/badge/PPA-socat--master-blue?logo=ubuntu)](https://launchpad.net/~grigoriy-yashin/+archive/ubuntu/socat-master-ppa)
 [![License: MIT](https://img.shields.io/github/license/grigoriy-yashin/socat-master)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/grigoriy-yashin/socat-master)](https://github.com/grigoriy-yashin/socat-master/commits/main)
